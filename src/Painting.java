@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Scanner;
 
 public class Painting {
@@ -75,5 +77,34 @@ public class Painting {
         System.out.println("Price: " + price);
         System.out.println("Year of creation: " + year);
         System.out.println("Unique number: " + uniqueNumber);
+    }
+    public static void printMostExpensive(List<Painting> paintings) {
+        List<Painting> mostExpensive = new ArrayList<>();
+        double maxPrice = 0.0;
+        for (Painting p : paintings) {
+            if (p.getPrice() > maxPrice) {
+                mostExpensive.clear();
+                mostExpensive.add(p);
+                maxPrice = p.getPrice();
+            } else if (p.getPrice() == maxPrice) {
+                mostExpensive.add(p);
+            }
+        }
+        System.out.println("Most expensive painting(s):");
+        for (Painting p : mostExpensive) {
+            p.printInfo();
+        }
+    }
+
+    public static double averagePrice(List<Painting> paintings, String author) {
+        double sum = 0.0;
+        int count = 0;
+        for (Painting p : paintings) {
+            if (author.isEmpty() || p.getAuthor().equalsIgnoreCase(author)) {
+                sum += p.getPrice();
+                count++;
+            }
+        }
+        return count == 0 ? 0.0 : sum / count;
     }
 }
