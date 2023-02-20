@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e311b572-d057-4c08-b71d-5cf90fe5cc38" name="Changes" comment="Adding new files to the 3rd task ( including )">
+    <list default="true" id="e311b572-d057-4c08-b71d-5cf90fe5cc38" name="Changes" comment="Completing the 4th task.">
+      <change afterPath="$PROJECT_DIR$/src/DuplicatePaintingException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Painting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Painting.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Paintings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Paintings.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +66,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1676893974864</updated>
-      <workItem from="1676893976158" duration="1204000" />
+      <workItem from="1676893976158" duration="2472000" />
     </task>
     <task id="LOCAL-00001" summary="Adding new files to the 3rd task ( including )">
       <created>1676894993276</created>
@@ -71,7 +75,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676894993276</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Completing the 4th task.">
+      <created>1676895366744</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1676895366744</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -90,6 +101,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Adding new files to the 3rd task ( including )" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding new files to the 3rd task ( including )" />
+    <MESSAGE value="Completing the 4th task." />
+    <option name="LAST_COMMIT_MESSAGE" value="Completing the 4th task." />
   </component>
 </project>

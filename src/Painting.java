@@ -9,17 +9,12 @@ public class Painting {
     private int year;
     private int uniqueNumber;
 
-    public Painting() {
+    public Painting(int id, String authorName, String title, int year, double price) {
         Scanner scanner = new Scanner(System.in);
-        System.out.print("Enter painting name: ");
         this.name = scanner.nextLine();
-        System.out.print("Enter author name: ");
         this.author = scanner.nextLine();
-        System.out.print("Enter painting price: ");
         this.price = scanner.nextDouble();
-        System.out.print("Enter year of creation: ");
         this.year = scanner.nextInt();
-        System.out.print("Enter unique number: ");
         this.uniqueNumber = scanner.nextInt();
     }
 

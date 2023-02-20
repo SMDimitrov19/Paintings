@@ -25,13 +25,14 @@ public class Paintings {
         paintings.add(painting);
     }
 
-    public void deletePainting(int uniqueNumber) {
+    public boolean deletePainting(int uniqueNumber) {
         for (Painting p : paintings) {
             if (p.getUniqueNumber() == uniqueNumber) {
                 paintings.remove(p);
                 break;
             }
         }
+        return true;
     }
     public void printPaintingsByAuthor(String authorName) {
         if (authorName.isEmpty()) {
