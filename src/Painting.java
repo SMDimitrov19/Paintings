@@ -11,11 +11,11 @@ public class Painting {
 
     public Painting(int id, String authorName, String title, int year, double price) {
         Scanner scanner = new Scanner(System.in);
-        this.name = scanner.nextLine();
-        this.author = scanner.nextLine();
-        this.price = scanner.nextDouble();
-        this.year = scanner.nextInt();
-        this.uniqueNumber = scanner.nextInt();
+//        this.name = scanner.nextLine();
+//        this.author = scanner.nextLine();
+//        this.price = scanner.nextDouble();
+//        this.year = scanner.nextInt();
+//        this.uniqueNumber = scanner.nextInt();
     }
 
     public Painting(String name, String author, double price, int year, int uniqueNumber) {
